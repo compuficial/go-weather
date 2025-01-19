@@ -1,6 +1,6 @@
 # go-weather
 
-A command-line weather application built in Go that provides current weather conditions for any location using coordinates.
+A cli tool built in Go that provides current weather conditions for any location using coordinates.
 
 ![Weather CLI Screenshot](./assets/images/go-weather.png)
 
@@ -58,7 +58,7 @@ Specify location and units using flags:
 
 ## Examples
 
-1. Get weather for Silicon Valley (Cupertino) in Fahrenheit:
+1. Get weather for Cupertino in Fahrenheit:
 
 ```bash
 ./weather -lat 37.3223 -lon -122.0322 -temp fahrenheit -tz America/Los_Angeles
