@@ -14,11 +14,36 @@ A cli tool built in Go that provides current weather conditions for any location
 
 ## Installation
 
+### Download Binary
+
+1. Go to the [releases page](https://github.com/compuficial/go-weather/releases)
+2. Download the version for your system:
+   - `weather-macos-arm64` for Mac M1/M2
+   - `weather-macos-amd64` for Intel Mac
+   - `weather-linux-amd64` for Linux
+3. Make it executable:
+
 ```bash
+chmod +x weather-*
+```
+
+4. Optionally move it to your PATH:
+
+```bash
+# Move to a directory in your PATH (you can rename it to just 'weather')
+sudo mv weather-* /usr/local/bin/weather
+```
+
+### Build from Source
+
+```bash
+# Clone the repository
 git clone https://github.com/compuficial/go-weather.git
 
+# Navigate to the project directory
 cd go-weather
 
+# Build the application
 go build -o weather
 ```
 
